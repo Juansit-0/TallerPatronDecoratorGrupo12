@@ -510,7 +510,7 @@ Repositorio: https://github.com/Juansit-0/TallerPatronDecoratorGrupo12
 |---------|------|-----------------|----------|
 | P1 (dueño del repo) | `main` | Base del proyecto y Component | `.gitignore`, `README.md` (versión inicial), `run.sh`, `run.bat`, `src/.../model/*` |
 | P2 | `feature/decorator-base` | Decorator abstracto y primeros implantes | `decorator/ImplantDecorator.java`, `MantisBlades`, `GorillaArms`, `Sandevistan`, `KerenzikovReflex` |
-| P3 | `feature/implants-service` | Resto de implantes y lógica de la clínica | `CyberdeckQuickhack`, `KiroshiOptics`, `SubdermalArmor`, `OpticalCamo`, `src/.../service/*` |
+| P3 — [Guerrero Alexander](https://github.com/GUERRREROALEXANDER) | `feature/implants-service` | Resto de implantes y lógica de la clínica | `CyberdeckQuickhack`, `KiroshiOptics`, `SubdermalArmor`, `OpticalCamo`, `src/.../service/*` |
 | P4 | `feature/api-web` | Servidor, interfaz y documentación final | `Main.java`, `src/.../api/*`, `web/*`, `README.md` final |
 
 Los PR se mergean **en orden** (P2, luego P3, luego P4), porque cada capa depende de la anterior.
